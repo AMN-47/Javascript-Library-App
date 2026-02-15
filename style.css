@@ -76,5 +76,70 @@ body {
     color: #333;
     font-size: 1.4rem;
     margin-bottom: 10px;
+} 
+
+.book-card p {
+    color: #666;
+    margin-bottom: 8px;
+    font-size: 0.95rem;
+} 
+
+.book-card .pages {
+    color: #888;
+    font-size: 0.9rem;
 }
 
+.read-status{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.read-status.read {
+    background: #d4edda;
+    color: #155724;
+}
+
+.read-status.not-read {
+    background: #f8d7da;
+    color: #721c24;
+}
+
+.book-card-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.toggle-read-btn,
+.remove-btn {
+    flex: 1;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: all 0.2s ease;
+}
+
+.toggle-read-btn {
+    background: #667eea;
+    color: white;
+}
+
+.toggle-read-btn:hover {
+    background: #5568d3;
+}
+
+.remove-btn {
+    background: #dc3545;
+    color: white;
+}
+
+.remove-btn:hover {
+    background: #c82333;
+}
